@@ -6,8 +6,12 @@
 /* common style */
 section {
     width: 1320px;
-    margin-top: 40px;
+    padding-top: 40px;
     margin: 0 auto;
+}
+
+.primary-color {
+    color: #FF0000;
 }
 
 /* header style */
@@ -48,4 +52,34 @@ header {
 .discount {
     display: flex;
     justify-content: center;
+    text-align: center;
+}
+
+.discount .dis-off {
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.discount .dis-title {
+    font-size: 20px;
+
+}
+
+.discount .dis-category {
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.discount-container {
+    width: 100%;
+}
+
+.discount-container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 20px;
 }
