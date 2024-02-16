@@ -6,8 +6,14 @@
 /* common style */
 section {
     width: 1320px;
+    height: 90vh;
     padding-top: 40px;
     margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.primary-btn {
+    background-color: #FF0000;
 }
 
 .primary-color {
@@ -25,6 +31,7 @@ header {
     background-position: center;
     background-size: cover;
     opacity: 200;
+    border-radius: 20px;
 
 }
 
@@ -82,4 +89,66 @@ header {
     margin-right: auto;
     width: 50%;
     margin-top: 20px;
+}
+
+/* midnight party style */
+.midnight-cover-img {
+    background-image: url(images/Vectorrr.png);
+    background-repeat: no-repeat;
+
+
+}
+
+.midnight-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    color: #fff;
+}
+
+.midnight-container .title {
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 20px;
+    line-height: 50px;
+}
+
+.midnight-container .join-btn {
+    margin-top: 20px;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* location and details section  style */
+.location-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+    padding: 200px 0;
+    border-radius: 20px;
+    margin-top: -150px;
+}
+
+.details {
+    text-align: center;
+    line-height: 30px;
+}
+
+.details h3 {
+    font-size: 22px;
+}
+
+.details button {
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
 }
