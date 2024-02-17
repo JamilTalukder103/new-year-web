@@ -1,154 +1,334 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Merriweather", serif;
 }
 
+
 /* common style */
-section {
-    width: 1320px;
-    height: 90vh;
-    padding-top: 40px;
-    margin: 0 auto;
-    margin-bottom: 100px;
+.primary-color {
+    color: #FF0000;
 }
 
 .primary-btn {
     background-color: #FF0000;
 }
 
-.primary-color {
-    color: #FF0000;
-}
-
-/* header style */
-header {
-    margin: 0 auto;
-    margin-top: 10px;
+section {
     width: 1320px;
-    height: 600px;
-    background-image: url(images//Banner\ Image.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    opacity: 200;
-    border-radius: 20px;
-
+    margin: 0 auto;
+    margin-bottom: 100px;
 }
 
 /* banner style */
-.banner {
-    width: 100%;
-    height: 100%;
-    color: white;
+#header {
+    margin-top: 8px;
+    width: 1320px;
+    margin: 0 auto;
+    height: 700px;
+    background-image: url(images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.banner-details {
+    text-align: center;
+}
+
+.banner-details h4 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.banner-details h2 {
+    font-size: 80px;
+    font-weight: 800;
+}
+
+/* discount style */
+.dis-details {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.banner h2 {
-    font-weight: bold;
-    font-size: 60px;
-}
-
-.banner h4 {
-    font-size: 20px;
-}
-
-/* discount banner style */
-.discount {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.discount .dis-off {
-    font-size: 60px;
-    font-weight: 600;
-    margin-bottom: 30px;
-}
-
-.discount .dis-title {
-    font-size: 20px;
-
-}
-
-.discount .dis-category {
-    font-size: 60px;
-    font-weight: 600;
-    margin-top: 20px;
-}
-
-.discount-container {
-    width: 100%;
-}
-
-.discount-container img {
+.dis-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    margin-top: 20px;
+
 }
 
-/* midnight party style */
-.midnight-cover-img {
+.dis {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.dis-details {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.dis-category {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* midnight style */
+.midnight-cover {
     background-image: url(images/Vectorrr.png);
+    width: 100%;
+    height: 500px;
     background-repeat: no-repeat;
-
-
-}
-
-.midnight-container {
-    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
     display: flex;
     align-items: center;
-    padding-left: 100px;
     color: #fff;
 }
 
-.midnight-container .title {
-    font-weight: bold;
+.midnight-details {
+    padding-left: 70px;
+}
+
+.discount {
     font-size: 60px;
-    margin-bottom: 20px;
+}
+
+.mid-title {
+    font-size: 50px;
+    font-weight: 600;
+
+}
+
+.mid-des {
+    color: aliceblue;
+    padding: 10px 0;
+}
+
+.join-btn {
+    border: none;
+    padding: 7px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+/* comming soon style */
+.cooming-soon-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 30px;
+}
+
+.comming-soon {
+    font-size: 50px;
+    font-weight: 700;
+    padding: 10px 0;
+
+}
+
+.comming-des {
+    font-size: 16px;
+    color: rgb(97, 94, 94);
+}
+
+.year-des {
+    padding: 10px 0;
+}
+
+.new-year .year {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.group-img {
+    border: 10px solid #FF0000;
+    border-radius: 50%;
+    padding: 10px;
+    width: 70%;
+}
+
+.new-year img {
+    width: 100px
+}
+
+/* holiday style */
+.holiday-description {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.holiday-sale {
+    padding: 20px 0;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.holiday-text {
+    font-size: 16px;
+    color: rgb(97, 94, 94);
+}
+
+.holiday-dis-product {
+    position: relative;
+    height: 600px;
+    z-index: 0;
+    margin-top: 60px;
+}
+
+.red-bg {
+    position: absolute;
+    bottom: 0;
+}
+
+.gift-box {
+    position: absolute;
+    width: 40%;
+    position: absolute;
+    top: -270;
+    left: 10;
+    bottom: 0;
+    z-index: 10;
+}
+
+.ladis-product {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+.dis {
+    position: absolute;
+    right: 0;
+    width: 200px;
+    right: 321px;
+    top: 56px;
+}
+
+/* location section syle */
+.place-location {
+
+    font-weight: 600;
+    text-align: center;
+    background-color: rgb(240, 203, 208);
+    padding: 140px 0;
+}
+
+.place-location h4 {
+    font-size: 30px;
     line-height: 50px;
 }
 
-.midnight-container .join-btn {
-    margin-top: 20px;
-    color: #fff;
-    padding: 5px 10px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
+/* portfolio style */
+.portfolio-title {
+    padding: 10px 0;
+    font-size: 40px;
+    font-weight: 600;
 }
 
-/* location and details section  style */
-.location-details {
+.portfolio-des {
+    font-size: 14px;
+    font-weight: normal;
+    color: rgb(97, 94, 94);
+}
+
+.portfolio {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.portfolio img {
+    width: 100%;
+    height: 400px;
+    border: 10px;
+    opacity: 1;
+}
+
+/* email style */
+.email-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ddd;
-    padding: 200px 0;
-    border-radius: 20px;
-    margin-top: -150px;
-}
-
-.details {
     text-align: center;
-    line-height: 30px;
+    background-color: rgb(240, 203, 208);
+    padding: 50px 0;
+    border-radius: 20px;
 }
 
-.details h3 {
-    font-size: 22px;
+
+.subs-title {
+    font-size: 40px;
+    font-weight: 800;
+    padding: 20px 0;
 }
 
-.details button {
+.subs-des {
+    padding-bottom: 20px;
+
+    font-size: 14px;
+    font-weight: normal;
+    color: rgb(97, 94, 94);
+}
+
+.email-subs input {
+    padding: 10px;
     border: none;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.subs-btn {
     padding: 10px 20px;
-    margin-top: 20px;
+    border: none;
+    border-radius: 0px 20px 20px 0px;
+    margin-left: -10px;
     color: #fff;
-    font-size: 20px;
-    font-weight: 400;
-    border-radius: 10px;
+}
+
+/* footer design */
+
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    padding-top: 60px;
+}
+
+.address {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.social-link {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.unsub {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+.unsub-btn {
+    border: none;
+    padding: 10px;
+    font-size: 17px;
 }
